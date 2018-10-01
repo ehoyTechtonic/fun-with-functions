@@ -1,23 +1,32 @@
 $(".answerKey").attr("style","display: none;") //DO NOT REMOVE this is just to hide the empty solution and feedback div that we will add after grading
 //Please enter your name for the assignment below
 document.getElementById('user').innerHTML =
-'Your name goes here'
+'Erik Hoy'
 
 //problem-1
 
 // place functions and supporting code here.  Uncomment line below and place answer the to right of = sign
-// document.getElementById("problem-1").innerHTML =
+function addNumbers(a, b) {
+  return (a + b);
+}
+document.getElementById("problem-1").innerHTML = addNumbers(3, 5);
 
 
 //problem-2
 
 // place functions and supporting code here.  Uncomment line below and place answer the to right of = sign
-// document.getElementById("problem-2").innerHTML =
+function subtractNumbers(a, b) {
+  return (a - b);
+}
+document.getElementById("problem-2").innerHTML = subtractNumbers(10, 8);
 
 //problem-3
 
 // place functions and supporting code here.  Uncomment line below and place answer the to right of = sign
-// document.getElementById("problem-3").innerHTML =
+function showResultsInBody(a) {
+  console.log("The result of your calculation is " + a);
+}
+document.getElementById("problem-3").innerHTML = showResultsInBody(5);
 
 
 //problem-4
