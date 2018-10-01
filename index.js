@@ -65,7 +65,7 @@ document.getElementById("problem-7").innerHTML = showResults(addNumbers(3, 5));
 //problem-8
 
 // place functions and supporting code here.  Uncomment line below and place answer the to right of = sign
-// document.getElementById("problem-8").innerHTML =
+document.getElementById("problem-8").innerHTML = showResults(addNumbers(addNumbers(5, 6), addNumbers(7, 3)));
 
 
 //problem-9
