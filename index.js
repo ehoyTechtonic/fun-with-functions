@@ -24,7 +24,7 @@ document.getElementById("problem-2").innerHTML = subtractNumbers(10, 8);
 
 // place functions and supporting code here.  Uncomment line below and place answer the to right of = sign
 function showResultsInBody(a) {
-  console.log("The result of your calculation is " + a);
+  console.log("The result of your calculation is " + a + ".");
 }
 document.getElementById("problem-3").innerHTML = showResultsInBody(5);
 
@@ -32,7 +32,10 @@ document.getElementById("problem-3").innerHTML = showResultsInBody(5);
 //problem-4
 
 // place functions and supporting code here.  Uncomment line below and place answer the to right of = sign
-// document.getElementById("problem-4").innerHTML =
+function showResults(a) {
+  return "The result of your calculation is " + a + ".";
+}
+document.getElementById("problem-4").innerHTML = showResults(5);
 
 
 //problem-5
