@@ -71,12 +71,19 @@ document.getElementById("problem-8").innerHTML = showResults(addNumbers(addNumbe
 //problem-9
 
 // place functions and supporting code here.  Uncomment line below and place answer the to right of = sign
-// document.getElementById("problem-9").innerHTML =
+document.getElementById("problem-9").innerHTML = showResults(subtractNumbers(multiplyNumbers(15, 4), divideNumbers(10, 2)));
 
 
 //challenge-1
 
 // place functions and supporting code here.  Uncomment line below and place answer the to right of = sign
-// document.getElementById("challenge-1.1").innerHTML = addTheWorld(5,2,8)
-// document.getElementById("challenge-1.2").innerHTML = addTheWorld(10,5,3,2)
-// document.getElementById("challenge-1.3").innerHTML = addTheWorld(25)
+function addTheWorld() {
+  sum = 0;
+  for(var i=0; i<arguments.length; i++) {
+    sum += arguments[i];
+  }
+  return sum;
+}
+document.getElementById("challenge-1.1").innerHTML = addTheWorld(5,2,8);
+document.getElementById("challenge-1.2").innerHTML = addTheWorld(10,5,3,2)
+document.getElementById("challenge-1.3").innerHTML = addTheWorld(25)
