@@ -41,13 +41,19 @@ document.getElementById("problem-4").innerHTML = showResults(5);
 //problem-5
 
 // place functions and supporting code here.  Uncomment line below and place answer the to right of = sign
-// document.getElementById("problem-5").innerHTML =
+function multiplyNumbers(a, b) {
+  return (a * b);
+}
+document.getElementById("problem-5").innerHTML = multiplyNumbers(5, 10);
 
 
 //problem-6
 
 // place functions and supporting code here.  Uncomment line below and place answer the to right of = sign
-// document.getElementById("problem-6").innerHTML =
+function divideNumbers(a, b) {
+  return (a / b);
+}
+document.getElementById("problem-6").innerHTML = divideNumbers(20, 4);
 
 
 //problem-7
