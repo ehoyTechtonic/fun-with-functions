@@ -59,7 +59,7 @@ document.getElementById("problem-6").innerHTML = divideNumbers(20, 4);
 //problem-7
 
 // place functions and supporting code here.  Uncomment line below and place answer the to right of = sign
-// document.getElementById("problem-7").innerHTML =
+document.getElementById("problem-7").innerHTML = showResults(addNumbers(3, 5));
 
 
 //problem-8
